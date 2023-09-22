@@ -119,7 +119,7 @@
 
             <!-- Button -->
             <li class="nav-item">
-              <a class="btn btn-primary rounded-pill" href="register/" target="">Daftar</a>
+              <a class="btn btn-primary rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModalCenter2" target="">Daftar</a>
             </li>
             <!-- End Button -->
           </ul>
@@ -1388,4 +1388,66 @@ data-hs-go-to-options='{
     })()
   </script>
 </body>
+<!-- Modal Register -->
+<div id="exampleModalCenter2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Mau jadi apa</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <!-- Card -->
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img class="img-fluid" src="src/assets/img/documentation/img8.jpg" alt="Card image cap">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <a class="card-title" href="register.php" style="color: rebeccapurple;">TIM</a>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img class="img-fluid" src="src/assets/img/documentation/img8.jpg" alt="Card image cap">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <a class="card-title" href="register.php" style="color: rebeccapurple;">Mitra</a>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img class="img-fluid" src="src/assets/img/documentation/img8.jpg" alt="Card image cap">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <a class="card-title" href="register.php" style="color: rebeccapurple;">Replikator</a>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Card -->
+
+    
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal -->
+
 </html>
